@@ -125,7 +125,8 @@ g_a (y) = Polygamma[1,y] + 1/y + (Pi * y * Cot[Pi * y])
 
 
 
-
+#CONTINOUS COSINC FUNCTION
+Cos(F * Sin(Pi x))/((F * Sin(Pi x)) + 1)
 
 
 
