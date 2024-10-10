@@ -138,7 +138,7 @@ g_a (y) = Polygamma[1,y] + 1/y + (Pi * y * Cot[Pi * y])
 
 
 
-I would like to thank the Lord Jesus Christ, and Adonai, Lord Our God, for helping me with the knowledge and guidance for this research paper. Without whom we can't even lift a pen to paper, thoughtless of forming and expressing our thoughts via words.
+I would like to thank, appreciate, revere, and worship Lord God Almighty, for helping me with the knowledge and guidance for this research paper. Without whom we can't even lift a pen to paper, thoughtless of forming and expressing our thoughts via words.
 
 
 
