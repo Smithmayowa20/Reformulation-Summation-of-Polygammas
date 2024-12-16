@@ -141,6 +141,11 @@ local minimum g(x) of f(x) = 1/(1 + 4n), where d = 21 and F = 10**5
 
 We can utilize these points from g(x) above as intervals for R_F(x) integration.
 
+Integrate(R_F(1/(1 + 4n)), (n,1,2)) + Integrate(R_F(1/(1 + 4n)), (n,2,3)) + .... + Integrate(R_F(1/(1 + 4n)), (n,k-1,k))
+
+Integrate(Taylor Series(R_F(1/(1 + 4n)),(n=)), (n,1,2)) + .... + Integrate(Taylor Series(R_F(1/(1 + 4n)),( n=(1/(1 + 4(k - 1)) + (1/(1 + 4k)))/2 )), (n,k-1,k))
+
+Sum(Integrate(Taylor Series(R_F(1/(1 + 4n)), n=(1/(1 + 4(J-1)) + 1/(1 + 4J))/2), (n,J-1,J)),(J,1,k))
 
 
 
