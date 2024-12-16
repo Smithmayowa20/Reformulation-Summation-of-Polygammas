@@ -133,6 +133,14 @@ g_a (y) = Polygamma[1,y] + 1/y + (Pi * y * Cot[Pi * y])
 
 Cos(F * Sin^2(Pi x))/((F * Sin^2(Pi x)) + 1)
 
+Let F(x) = 1/(F * Sin**2(Pi * (d - x)/x) + 1)
+
+R_F(x) = Integrate(BernoulliB(2,Frac(x)) * D(F(x), (x,2)) * 1/2, ())
+
+local minimum g(x) of f(x) = 1/(1 + 4n), where d = 21 and F = 10**5
+
+We can utilize these points from g(x) above as intervals for R_F(x) integration.
+
 
 
 
